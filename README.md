@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Uber Interview 🚘
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this repository, the solution is given for the task that was given in an interview at Uber for **Senior Software Engineer** position.
 
-## Available Scripts
+## Demo 📀
 
-In the project directory, you can run:
+![app-demo](./src/assets/demo.gif)
 
-### `npm start`
+## Task Description 🗒️
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Display boxes as shown in the video (order of boxes is important)
+- Initially all boxes are unchecked (not green)
+- User can click these boxes one by one in any order
+- Once all boxes are checked (green) they start getting unchecked themselves until all gets unchecked (not green)
+- Make sure boxes gets unchecked in the reverse order as user clicked them
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Setup ⚙️
 
-### `npm test`
+Following instructions will get you a copy of the project up and running on your local machine for development purpose.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1.  Install following on your local machine
+    -     [Git](https://git-scm.com)
+    - [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com))
+2.  Clone the repository by running this following command
+    ```bash
+    git clone https://github.com/asadkhalid305/uber-interview.git
+    ```
+3.  Start project by running following commands
+    ```bash
+    cd uber-interview/
+    npm install
 
-### `npm run build`
+    # once node_modules gets install, run this command
+    npm start
+    ```
+4.  Once your app is running, you can access it on the following address in your browser
+    [http://localhost:3000](http://localhost:3000)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Versions ☝️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Following versions are being used while creating this guide.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git@2.x.x or higher
+node@v16.x.x or higher
+npm@6.x.x or higher
+```
 
-### `npm run eject`
+## About Me 😎
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_My name is Asad Ullah Khalid and I am BS(CS) graduated. Professionally I am a Full-stack Web engineer majorly Frontend focused with 4+ years of experience working with JavaScript and its frameworks like VueJs, ReactJs, NodeJs, along with SQL and NoSQL databases and by my passion I am a tech speaker, trainer, and mentor along with contributor to Open-Source._
