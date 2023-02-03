@@ -19,7 +19,7 @@ In this repository, the solution is given for the task that was given in an inte
 Following instructions will get you a copy of the project up and running on your local machine for development purpose.
 
 1.  Install following on your local machine
-    -     [Git](https://git-scm.com)
+    - [Git](https://git-scm.com)
     - [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com))
 2.  Clone the repository by running this following command
     ```bash
